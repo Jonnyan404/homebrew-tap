@@ -5,21 +5,21 @@
 class CloudClipboardGo < Formula
   desc "云剪贴板：跨设备共享文本和文件"
   homepage "https://github.com/Jonnyan404/cloud-clipboard-go"
-  version "4.5.10"
+  version "4.5.12"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v4.5.10/cloud-clipboard-go_Darwin_x86_64.tar.gz"
-      sha256 "06b364f5bd92c92ed67702759fbbab6b41ee1779bac2060adf73b1a82cad6d2b"
+      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v4.5.12/cloud-clipboard-go_Darwin_x86_64.tar.gz"
+      sha256 "90d2cbb00cc688c7d26a6974b3e516cfd26e3b206bf2debbbbecce6bda87fb16"
 
       def install
         bin.install "cloud-clipboard-go"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v4.5.10/cloud-clipboard-go_Darwin_aarch64.tar.gz"
-      sha256 "806600b2284dc0a1720783433aa4d1351a6801f5c346295016d0e322aa45bd13"
+      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v4.5.12/cloud-clipboard-go_Darwin_aarch64.tar.gz"
+      sha256 "93421ed802a18f7fa48dbf7f7d14120b087ac3fcfd903883d076ed45e94a6652"
 
       def install
         bin.install "cloud-clipboard-go"
@@ -29,15 +29,15 @@ class CloudClipboardGo < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v4.5.10/cloud-clipboard-go_Linux_x86_64.tar.gz"
-      sha256 "6760fca57de65796fd00b79a9bb9a1861055a2c0ce62d7ec885dd4c32d13a1ed"
+      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v4.5.12/cloud-clipboard-go_Linux_x86_64.tar.gz"
+      sha256 "4af666de49307dcffc6eaaf1ae1f638e92cc20ecfca38db15696484267167343"
       def install
         bin.install "cloud-clipboard-go"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v4.5.10/cloud-clipboard-go_Linux_aarch64.tar.gz"
-      sha256 "13c23a07dfe9153fd5b83dafdeb34b25c55f9c3f78535f8cddbc7b98afa447e1"
+      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v4.5.12/cloud-clipboard-go_Linux_aarch64.tar.gz"
+      sha256 "3e7134793c4a48b2b4ce68341ca41f4dfa21eeea4bcfcb771cc0af6628746e3b"
       def install
         bin.install "cloud-clipboard-go"
       end
