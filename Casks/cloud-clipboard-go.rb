@@ -1,8 +1,9 @@
 cask "cloud-clipboard-go" do
   version "v6.5"
-  sha256 "bea5481562a2f0a13d9ca65a49d43f134e15f0246fed1e3331c48083a6415241"
+  sha256 "58de0dad25efe7baff99da0f8e4002d5cf71b3da970d3273c4680decf44c9432"
+
+  url "https://github.com/jonnyan404/cloud-clipboard-go-launcher/releases/download/#{version}/cloud-clipboard-go-#{version}-macOS-universal.dmg"
   
-  url "https://github.com/jonnyan404/cloud-clipboard-go-launcher/releases/download/#{version}/cloud-clipboard-go-#{version}.dmg"
   name "cloud-clipboard-go"
   desc "跨平台云剪贴板启动器"
   homepage "https://github.com/jonnyan404/cloud-clipboard-go-launcher"
