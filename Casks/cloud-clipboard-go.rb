@@ -1,6 +1,6 @@
 cask "cloud-clipboard-go" do
   version "v6.7"
-  sha256 "5018687d57728f25bb9dad09d6ac397f32ea943b495b71f5afe4498d5f3574d5"
+  sha256 "45d32dde9c92b0e8ede68fd1e5c78284423bd7c93ed283c964799f53c8a22f35"
 
   url "https://github.com/jonnyan404/cloud-clipboard-go-launcher/releases/download/#{version}/cloud-clipboard-go-#{version}-macOS-universal.dmg"
   
