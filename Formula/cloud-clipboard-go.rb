@@ -11,7 +11,7 @@ class CloudClipboardGo < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v5.1.0/CCG_server-darwin-x86_64-v5.1.0.tar.gz"
-      sha256 "a8b39a2371323bdab45294a358d591b69d922e91692782477587ac0dedb06d07"
+      sha256 "8b847191ec983627ec65f09c87dc608bfd5fa67053a61d2beaa0f0da79fe7cfc"
 
       define_method(:install) do
         bin.install "cloud-clipboard-go"
@@ -19,7 +19,7 @@ class CloudClipboardGo < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v5.1.0/CCG_server-darwin-aarch64-v5.1.0.tar.gz"
-      sha256 "ed4028b99c42f19849dbf87ade3a85832081736938cfd4856094b541a8a85002"
+      sha256 "090a9bcbfdfdf05a96f55aa6c86c6c2fb85cec33827f54287801ec0b5d742e54"
 
       define_method(:install) do
         bin.install "cloud-clipboard-go"
@@ -30,14 +30,14 @@ class CloudClipboardGo < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v5.1.0/CCG_server-linux-x86_64-v5.1.0.tar.gz"
-      sha256 "764089e7407e67fe40bf041ccdd250797696a740acf44f2f9abeb9b859d393de"
+      sha256 "e5608ba6ff65b3c2b33db4dee0c993026d3850db61fc365f814a86b17ed0f1e5"
       define_method(:install) do
         bin.install "cloud-clipboard-go"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v5.1.0/CCG_server-linux-aarch64-v5.1.0.tar.gz"
-      sha256 "22a083d429b80c8bf33e9e506b8956593cd6fbb0840feaea59a9d4502fbcb013"
+      sha256 "a96b3a3f118ee3d12d0c8586019014f2d9e430b6bd6712ea60916b29b3e8f779"
       define_method(:install) do
         bin.install "cloud-clipboard-go"
       end
