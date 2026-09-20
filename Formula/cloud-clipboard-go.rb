@@ -5,21 +5,21 @@
 class CloudClipboardGo < Formula
   desc "云剪贴板：跨设备共享文本和文件"
   homepage "https://github.com/Jonnyan404/cloud-clipboard-go"
-  version "5.0.8"
+  version "5.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v5.0.8/CCG_server-darwin-x86_64-v5.0.8.tar.gz"
-      sha256 "ba9626f30d5b4636aad2ad0c6793104f7a5bb79a4d8c6a6976cfe2a6bae00757"
+      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v5.1.0/CCG_server-darwin-x86_64-v5.1.0.tar.gz"
+      sha256 "a8b39a2371323bdab45294a358d591b69d922e91692782477587ac0dedb06d07"
 
       define_method(:install) do
         bin.install "cloud-clipboard-go"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v5.0.8/CCG_server-darwin-aarch64-v5.0.8.tar.gz"
-      sha256 "f7a6129ac581ce0abe07fdd7ba15180a671346ed39ab033f85dbbcac0f19ff49"
+      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v5.1.0/CCG_server-darwin-aarch64-v5.1.0.tar.gz"
+      sha256 "ed4028b99c42f19849dbf87ade3a85832081736938cfd4856094b541a8a85002"
 
       define_method(:install) do
         bin.install "cloud-clipboard-go"
@@ -29,15 +29,15 @@ class CloudClipboardGo < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v5.0.8/CCG_server-linux-x86_64-v5.0.8.tar.gz"
-      sha256 "c5431b46f68a646931ca141ad7a95343f410f9fe1d1491e1e523607fc69e7fdd"
+      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v5.1.0/CCG_server-linux-x86_64-v5.1.0.tar.gz"
+      sha256 "764089e7407e67fe40bf041ccdd250797696a740acf44f2f9abeb9b859d393de"
       define_method(:install) do
         bin.install "cloud-clipboard-go"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v5.0.8/CCG_server-linux-aarch64-v5.0.8.tar.gz"
-      sha256 "8a4f210dda6375038061cf8e906ca5539ce9c4aa986570063117e358cff688b2"
+      url "https://github.com/Jonnyan404/cloud-clipboard-go/releases/download/v5.1.0/CCG_server-linux-aarch64-v5.1.0.tar.gz"
+      sha256 "22a083d429b80c8bf33e9e506b8956593cd6fbb0840feaea59a9d4502fbcb013"
       define_method(:install) do
         bin.install "cloud-clipboard-go"
       end
