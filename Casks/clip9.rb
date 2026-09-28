@@ -3,12 +3,12 @@ cask "clip9" do
   version "0.1.0-beta3"
 
   on_arm do
-    sha256 "99908dc4446ee36e27221f9d84fab8c0423774f4f264713ae3b1a94be1b87969"
+    sha256 "9b445a382ba948a96202449455c848a99754a84b5b788e8f74a8b3ff271a4fad"
     url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.0-beta3/clip9-desktop-macos-aarch64.dmg"
   end
 
   on_intel do
-    sha256 "24e3f6fe0f142aacaf36fce04d3963cb193983f51e1ccf39164088e315b13ce8"
+    sha256 "02ba6cc41e10209ecf292301f5d04a55cda78ddbbb917c581d6c1273338d3496"
     url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.0-beta3/clip9-desktop-macos-x86_64.dmg"
   end
 
