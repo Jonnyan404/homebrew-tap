@@ -1,15 +1,15 @@
 # 本文件由 clip9 的发布流程生成，别手改（下次发布会整份盖掉）。
 cask "clip9" do
-  version "0.1.0"
+  version "0.1.1-beta1"
 
   on_arm do
-    sha256 "c8610a4e713ff525664c2bbf89190cfed141c6281c9798fd32d988764290248e"
-    url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.0/clip9-desktop-macos-aarch64.dmg"
+    sha256 "50794f6acc18a538df63dbd86a9e2fdd27ef29b6c087872701c1343ea222456b"
+    url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1-beta1/clip9-desktop-v0.1.1-beta1-macos-aarch64.dmg"
   end
 
   on_intel do
-    sha256 "8bc5c6ff1973aa7a80c6efcb9589a56994daf50d1d88f70c97e073df591049c6"
-    url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.0/clip9-desktop-macos-x86_64.dmg"
+    sha256 "bf71f5071339aa69dc701491fd61319cb054a77938c8e7ac5e728742030ae04c"
+    url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1-beta1/clip9-desktop-v0.1.1-beta1-macos-x86_64.dmg"
   end
 
   name "clip9"
