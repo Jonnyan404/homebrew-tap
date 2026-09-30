@@ -8,22 +8,22 @@ class Clip9 < Formula
   on_macos do
     on_arm do
       url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1-beta2/clip9-cli-v0.1.1-beta2-macos-aarch64.tar.gz"
-      sha256 "74dfe6b4581d3844b7936e20e9510989673f66ad64dd4b108969f68cc9b0301c"
+      sha256 "dcbf09df7b121b4ec7e6d9578fa9d1f675c49fea893c668e669511e9961242d6"
     end
     on_intel do
       url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1-beta2/clip9-cli-v0.1.1-beta2-macos-x86_64.tar.gz"
-      sha256 "90b0df00d1c81afdf711cfc428d0fc3c711045eea36e6df23f89eb8d76ee1ae4"
+      sha256 "a52ce96701744a546032bf98d0f7ba3f6b795a2e5f7017736ddd7b6250efa214"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1-beta2/clip9-cli-v0.1.1-beta2-linux-aarch64.tar.gz"
-      sha256 "2a7583b2ce33ce703882d0f8aab4d66fcd905b4243947696d07857d1348d1bc6"
+      sha256 "130701e65a99dcc5a519a5cb1a46a1171a8061cfebdd38050c45c12618740cbb"
     end
     on_intel do
       url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1-beta2/clip9-cli-v0.1.1-beta2-linux-x86_64.tar.gz"
-      sha256 "4de4fcef0d5e3aa30d45b1b34af0baf1560cbc1169ee3a8d414fbbbde109be6c"
+      sha256 "8c9370304053f8ff9b4b2d6df95846484d2e861c57ac20c6448e12a62094e988"
     end
   end
 
