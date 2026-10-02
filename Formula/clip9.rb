@@ -2,28 +2,28 @@
 class Clip9 < Formula
   desc "自托管的跨设备剪贴板：单文件服务端，前端已编在二进制里"
   homepage "https://github.com/Jonnyan404/clip9"
-  version "0.1.1-beta3"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1-beta3/clip9-cli-v0.1.1-beta3-macos-aarch64.tar.gz"
-      sha256 "ec3f3680a9b0d232afd3193e0ea841e75bd5c4dcbc6c6f0d528ab60b4ff0b72c"
+      url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1/clip9-cli-v0.1.1-macos-aarch64.tar.gz"
+      sha256 "2955ccd7b2597e917724dec1338ec743ac2f39b8e15cdcba0c2db7ada0907f4d"
     end
     on_intel do
-      url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1-beta3/clip9-cli-v0.1.1-beta3-macos-x86_64.tar.gz"
-      sha256 "da197cd3ea86f9eee1f27a087f3a277ff5420eefa78abf0708b891a2cc4b7604"
+      url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1/clip9-cli-v0.1.1-macos-x86_64.tar.gz"
+      sha256 "812ed110953d5850bfbf113653ae5663aaafbbd3702fedc9227f64bed9bdbd26"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1-beta3/clip9-cli-v0.1.1-beta3-linux-aarch64.tar.gz"
-      sha256 "8593ac52cd7073ec7e549a342eb30273a086a04a01ad0776d20969d64f2960fc"
+      url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1/clip9-cli-v0.1.1-linux-aarch64.tar.gz"
+      sha256 "88438c49820481740436d7f423b3c240bd8825106bae29b898a9b2d46951ec61"
     end
     on_intel do
-      url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1-beta3/clip9-cli-v0.1.1-beta3-linux-x86_64.tar.gz"
-      sha256 "c8081899c6a690b388219702dd93d6627082fac0a772a5dc8618e9b40fe32992"
+      url "https://github.com/Jonnyan404/clip9/releases/download/v0.1.1/clip9-cli-v0.1.1-linux-x86_64.tar.gz"
+      sha256 "7fbac1e07345f195d9716042b7d7da6de0736a1e1b7a7cc2950722b836fa1fb2"
     end
   end
 
